@@ -1,0 +1,30 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\" ",
+    "format:check": "prettier --list-different \"src/**/*.{js,jsx,css,json}\" ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "petfinder-client": "^1.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
