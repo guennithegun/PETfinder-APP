@@ -1,5 +1,6 @@
 # Folders
 node-modules/
 .cache/
+dist/
 
 # Files
