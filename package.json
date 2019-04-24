@@ -1,5 +1,6 @@
 {
   "name": "adopt-me",
+  "homepage": "http://guennithegun.github.io/PETfinder-APP",
   "version": "1.0.0",
   "description": "An app to teach you to write React",
   "main": "src/App.js",
@@ -7,7 +8,9 @@
     "test": "",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
